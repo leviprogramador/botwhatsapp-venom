@@ -1,7 +1,7 @@
 import { VenomBot } from '../venom.js'
 import { menu } from '../menu.js'
 import { storage } from '../storage.js'
-import { neighborhoods } from './neighborhoods.js'
+import { neighborhoods } from './notificacao.js'
 import { initialStage } from './0.js'
 import { STAGES } from './index.js'
 
@@ -47,9 +47,9 @@ const options = {
   },
   2: () => {
     const message =
-      '\n-----------------------------------\n1️⃣ - ```FAZER PEDIDO``` \n0️⃣ - ```FALAR COM ATENDENTE```\n\n' +
+      '\n-----------------------------------\n1️⃣ - ```Realizar agendamento``` \n0️⃣ - ```FALAR COM ATENDENTE```\n\n' +
       neighborhoods +
-      '\n-----------------------------------\n1️⃣ - ```FAZER PEDIDO``` \n0️⃣ - ```FALAR COM ATENDENTE``` '
+      '\n-----------------------------------\n1️⃣ - ```Realizar agendamento``` \n0️⃣ - ```FALAR COM ATENDENTE``` '
 
     return {
       message,

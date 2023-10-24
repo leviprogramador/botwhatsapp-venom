@@ -20,7 +20,7 @@ export const stageTwo = {
         msg =
           `✅ *${menu[message].description}* adicionado com sucesso! \n\n` +
           '```Digite outra opção```: \n\n' +
-          '\n-----------------------------------\n#️⃣ - ```FINALIZAR pedido``` \n*️⃣ - ```CANCELAR pedido```'
+          '\n-----------------------------------\n#️⃣ - ```FINALIZAR agendamento``` \n*️⃣ - ```CANCELAR agendamento```'
         storage[params.from].itens.push(menu[message])
       }
 

@@ -7,7 +7,7 @@ export * from './5.js'
 
 export const STAGES = {
   INICIAL: '0',
-  MENU: '1',
+  Agendar: '1',
   CARRINHO: '2',
   RESUMO: '3',
   PEDIDO: '4',

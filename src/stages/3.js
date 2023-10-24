@@ -7,7 +7,7 @@ export const stageThree = {
     storage[from].address = message
     storage[from].stage = STAGES.PEDIDO
 
-    let msg = 'Pedido *CANCELADO* com sucesso. \n Volte Sempre!'
+    let msg = 'Agendamento *CANCELADO* com sucesso. \n Volte Sempre!'
     if (message === '*') {
       storage[from].stage = STAGES.INICIAL
     } else {
